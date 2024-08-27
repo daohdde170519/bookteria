@@ -1,4 +1,4 @@
-package com.devteria.profile.dto.request;
+package com.devteria.identity.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,9 +11,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ProfileCreationRequest {
-
-    private String userId;
+public class UserProfileResponse {
+    private String id;
     private String firstName;
     private String lastName;
     private LocalDate dob;
