@@ -13,6 +13,7 @@ import java.time.LocalDate;
 @Builder
 public class UserProfileResponse {
     private String id;
+    private String userId;
     private String firstName;
     private String lastName;
     private LocalDate dob;
